@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/container-queries";
+
+@theme {
+  /* ── Primary ── */
+  --color-primary: #efffe3;
+  --color-primary-container: #39ff14;
+  --color-primary-fixed: #79ff5b;
+  --color-primary-fixed-dim: #2ae500;
+  --color-on-primary: #053900;
+  --color-on-primary-container: #107100;
+  --color-on-primary-fixed: #022100;
+  --color-on-primary-fixed-variant: #095300;
+  --color-inverse-primary: #106e00;
+
+  /* ── Secondary ── */
+  --color-secondary: #dcfdff;
+  --color-secondary-container: #00f1fd;
+  --color-secondary-fixed: #6ff6ff;
+  --color-secondary-fixed-dim: #00dce6;
+  --color-on-secondary: #00373a;
+  --color-on-secondary-container: #006a6f;
+  --color-on-secondary-fixed: #002022;
+  --color-on-secondary-fixed-variant: #004f53;
+
+  /* ── Tertiary ── */
+  --color-tertiary: #fff8f7;
+  --color-tertiary-container: #ffd3ce;
+  --color-tertiary-fixed: #ffdad6;
+  --color-tertiary-fixed-dim: #e7bdb8;
+  --color-on-tertiary: #442927;
+  --color-on-tertiary-container: #7a5955;
+  --color-on-tertiary-fixed: #2c1513;
+  --color-on-tertiary-fixed-variant: #5d3f3c;
+
+  /* ── Error ── */
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-on-error: #690005;
+  --color-on-error-container: #ffdad6;
+
+  /* ── Surface / Background ── */
+  --color-background: #131313;
+  --color-on-background: #e5e2e1;
+  --color-surface: #131313;
+  --color-surface-dim: #131313;
+  --color-surface-bright: #3a3939;
+  --color-surface-variant: #353534;
+  --color-surface-container: #201f1f;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353534;
+  --color-surface-tint: #2ae500;
+  --color-on-surface: #e5e2e1;
+  --color-on-surface-variant: #baccb0;
+  --color-inverse-surface: #e5e2e1;
+  --color-inverse-on-surface: #313030;
+
+  /* ── Outline ── */
+  --color-outline: #85967c;
+  --color-outline-variant: #3c4b35;
+
+  /* ── Kinetic Noir custom tokens ── */
+  --color-surface-glass: rgba(255, 255, 255, 0.03);
+  --color-surface-charcoal: #121212;
+  --color-border-subtle: rgba(255, 255, 255, 0.08);
+  --color-neon-green-glow: rgba(57, 255, 20, 0.15);
+  --color-neon-blue-glow: rgba(0, 243, 255, 0.15);
+
+  /* ── Spacing ── */
+  --spacing-margin-desktop: 64px;
+  --spacing-margin-mobile: 16px;
+  --spacing-base-unit: 4px;
+  --spacing-gutter: 24px;
+  --spacing-max-width: 1280px;
+
+  /* ── Font Families ── */
+  --font-headline-md: "Geist", sans-serif;
+  --font-display-lg: "Geist", sans-serif;
+  --font-display-lg-mobile: "Geist", sans-serif;
+  --font-label-uppercase: "Geist", sans-serif;
+  --font-body-sm: "Inter", sans-serif;
+  --font-body-base: "Inter", sans-serif;
+
+  /* ── Font Sizes ── */
+  --text-display-lg: 48px;
+  --text-display-lg--line-height: 56px;
+  --text-display-lg--letter-spacing: -0.04em;
+  --text-display-lg--font-weight: 700;
+
+  --text-display-lg-mobile: 32px;
+  --text-display-lg-mobile--line-height: 40px;
+  --text-display-lg-mobile--letter-spacing: -0.02em;
+  --text-display-lg-mobile--font-weight: 700;
+
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--letter-spacing: -0.02em;
+  --text-headline-md--font-weight: 600;
+
+  --text-headline-md-mobile: 20px;
+  --text-headline-md-mobile--line-height: 28px;
+  --text-headline-md-mobile--letter-spacing: -0.01em;
+  --text-headline-md-mobile--font-weight: 600;
+
+  --text-body-base: 16px;
+  --text-body-base--line-height: 24px;
+  --text-body-base--letter-spacing: 0em;
+  --text-body-base--font-weight: 400;
+
+  --text-body-sm: 14px;
+  --text-body-sm--line-height: 20px;
+  --text-body-sm--letter-spacing: 0em;
+  --text-body-sm--font-weight: 400;
+
+  --text-label-uppercase: 12px;
+  --text-label-uppercase--line-height: 16px;
+  --text-label-uppercase--letter-spacing: 0.1em;
+  --text-label-uppercase--font-weight: 600;
+}
+
+/* Class-based dark mode (matches the `dark` class on root divs) */
+@variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    min-height: max(884px, 100dvh);
+    background-color: var(--color-background);
+    color: var(--color-on-surface);
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  /* alias used in ExploreTurfs */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .neon-glow-primary {
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.15);
+  }
+  .neon-glow-secondary {
+    box-shadow: 0 0 20px rgba(0, 243, 255, 0.15);
+  }
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
