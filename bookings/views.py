@@ -35,3 +35,6 @@ class BookingViewSet(viewsets.ModelViewSet):
             hours = 1  # default to 1 hour if not specified
             
         serializer.save(user=user, total_amount=float(turf.hourly_rate) * hours, turf=turf)
+
+
+        #comit testing
