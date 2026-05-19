@@ -35,3 +35,6 @@ class VenueViewSet(viewsets.ModelViewSet):
 
     # Allow public access to this API
     permission_classes = [AllowAny]
+
+
+    # Mehedi's contribution is this comment.
