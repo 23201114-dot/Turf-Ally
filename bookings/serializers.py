@@ -11,3 +11,7 @@ class BookingSerializer(serializers.ModelSerializer):
         model = Booking
         fields = '__all__'
         read_only_fields = ('user', 'total_amount', 'status')
+
+
+
+#testing 101
