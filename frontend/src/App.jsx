@@ -269,3 +269,286 @@ function App() {
 }
 
 export default App
+
+
+// Import React and hooks
+// Import routing tools
+// Import API function
+
+// Main App component
+
+// Navigation hook
+
+// Check login status using token
+
+// State for featured turf list
+
+// State for search input
+
+// Run when component loads
+
+// Fetch turf data from API
+
+// Store first 3 turfs
+
+// Ignore fetch errors
+
+// Logout function
+
+// Remove access token
+
+// Remove refresh token
+
+// Redirect to login page
+
+// Search form submit handler
+
+// Prevent page reload
+
+// Navigate to explore page with query
+
+// Array of turf image URLs
+
+// Main application container
+
+// Top navigation bar
+
+// Navbar wrapper
+
+// Logo section
+
+// Sports icon
+
+// Website logo
+
+// Desktop navigation menu
+
+// Home link
+
+// Explore link
+
+// Bookings link
+
+// Profile link
+
+// Right side auth section
+
+// Check if user is logged in
+
+// Profile button
+
+// Profile icon
+
+// Logout button
+
+// Sign in button
+
+// Main content section
+
+// Hero section
+
+// Background effects container
+
+// Top blur effect
+
+// Bottom blur effect
+
+// Background hero image
+
+// Hero content wrapper
+
+// Badge section
+
+// Badge icon
+
+// Badge text
+
+// Main heading
+
+// Highlighted gradient text
+
+// Hero description
+
+// Search box wrapper
+
+// Search form
+
+// Search input section
+
+// Search icon
+
+// Search input field
+
+// Update search query state
+
+// Search button
+
+// Stats row section
+
+// Stats array mapping
+
+// Single stat item
+
+// Stat value
+
+// Stat label
+
+// Trending venues section
+
+// Section header wrapper
+
+// Section title area
+
+// Trending title
+
+// Trending subtitle
+
+// View all link
+
+// View all text
+
+// Arrow icon
+
+// Check if featured turfs exist
+
+// Turf cards grid
+
+// Large featured turf card
+
+// Featured turf image
+
+// Overlay gradient
+
+// Featured turf content
+
+// Turf details
+
+// Pro grade badge
+
+// Featured turf name
+
+// Location text
+
+// Location icon
+
+// Price card
+
+// Hourly rate
+
+// Price label
+
+// Smaller turf cards section
+
+// Map through smaller turfs
+
+// Single smaller turf card
+
+// Smaller turf image
+
+// Smaller card overlay
+
+// Smaller turf content
+
+// Turf name
+
+// Turf details
+
+// Placeholder section if no turf data
+
+// Placeholder grid
+
+// Placeholder large card
+
+// Placeholder image
+
+// Placeholder overlay
+
+// Placeholder content wrapper
+
+// Placeholder details
+
+// Placeholder badge
+
+// Placeholder turf name
+
+// Placeholder location row
+
+// Placeholder location icon
+
+// Placeholder price card
+
+// Placeholder price
+
+// Placeholder price label
+
+// Placeholder smaller cards wrapper
+
+// First placeholder small card
+
+// First placeholder image
+
+// First placeholder overlay
+
+// First placeholder content
+
+// First placeholder title
+
+// First placeholder details
+
+// Second placeholder small card
+
+// Second placeholder image
+
+// Second placeholder overlay
+
+// Second placeholder content
+
+// Second placeholder title
+
+// Second placeholder details
+
+// CTA section
+
+// CTA container
+
+// CTA background effect
+
+// CTA content wrapper
+
+// Trophy icon
+
+// CTA title
+
+// CTA description
+
+// CTA button group
+
+// Explore turfs button
+
+// Explore icon
+
+// Check if user is not logged in
+
+// Create account button
+
+// Login icon
+
+// Footer section
+
+// Footer wrapper
+
+// Footer left section
+
+// Footer icon
+
+// Footer copyright text
+
+// Footer navigation links
+
+// Explore footer link
+
+// Bookings footer link
+
+// Profile footer link
+
+// Export App component
