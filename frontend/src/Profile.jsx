@@ -151,3 +151,149 @@ export default function Profile() {
     </div>
   )
 }
+
+// Import React and hooks
+// Import routing utilities
+// Import API functions
+
+// Main Profile component
+
+// Navigation hook
+
+// User state
+
+// Athlete profile state
+
+// Loading state
+
+// Run when component mounts
+
+// Fetch profile data
+
+// Fetch user and athlete profile together
+
+// Save user data
+
+// Save athlete profile data
+
+// Handle fetch errors
+
+// Redirect if unauthorized
+
+// Stop loading
+
+// Call fetch function
+
+// Logout function
+
+// Remove access token
+
+// Remove refresh token
+
+// Redirect to login page
+
+// Main container
+
+// Top navigation bar
+
+// Navbar wrapper
+
+// Logo section
+
+// Sports icon
+
+// Website logo
+
+// Desktop navigation menu
+
+// Home link
+
+// Explore link
+
+// Bookings link
+
+// Profile link
+
+// Logout button
+
+// Logout icon
+
+// Main page content
+
+// Page heading
+
+// Title
+
+// Subtitle
+
+// Loading condition
+
+// Loading card
+
+// Loading icon
+
+// Loading text
+
+// Profile card
+
+// Background effect
+
+// Profile picture container
+
+// Default profile icon
+
+// User information section
+
+// User full name
+
+// Username
+
+// Membership type
+
+// Stats section
+
+// Stats array mapping
+
+// Single stat card
+
+// Stat label
+
+// Stat value
+
+// Edit profile button
+
+// Edit icon
+
+// Account details card
+
+// Section heading
+
+// Heading icon
+
+// Account details list
+
+// Account info mapping
+
+// Single account detail row
+
+// Row icon
+
+// Text container
+
+// Detail label
+
+// Detail value
+
+// Quick actions section
+
+// My bookings button
+
+// Calendar icon
+
+// Explore button
+
+// Explore icon
+
+// Sign out button
+
+// Logout icon
